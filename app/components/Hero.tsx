@@ -12,16 +12,16 @@ import CluthImg from '../../public/assets/Clutch.svg';
 
 const Hero = () => {
   return (
-    <div className='pt-4'>
-        <div className='px-[20px]'>
-            <h1 className='text-center text-[32px] leading-[40px] font-medium text-[#172026]'>Start monitoring your website like a pro</h1>
-            <div className='text-center pt-6 text-[#36485c] '>
+    <div className='pt-4 lg:pt-10'>
+        <div className='px-[20px] lg:px-[280px]'>
+            <h1 className='text-center text-[32px] leading-[40px] font-medium text-[#172026] lg:text-[64px] lg:leading-[72px]'>Start monitoring your website like a pro</h1>
+            <div className='text-center pt-6 text-[#36485c] lg:text-[18px] lg:leading-7'>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid nam odio quibusdam. Error explicabo corrupti, necessitatibus cumque amet veniam excepturi suscipit ratione soluta illo distinctio aut sit sint numquam aliquam?
             </div>
             {/* button */}
-            <div className='flex w-full pt-8'>
-                <button className='bg-[#4328eb] w-1/2 py-4 px-8 text-white rounded-[4px]'>Try for free</button>
-                <button className=' w-1/2 py-4 px-8 text-[#4328eb] flex items-center justify-center bg-pink-100 gap-x-2 '>
+            <div className='flex w-full pt-8 justify-center gap-x-2 lg:gap-x-6'>
+                <button className='bg-[#4328eb] w-1/2 py-4 px-8 text-white rounded-[4px] lg:w-fit'>Try for free</button>
+                <button className=' w-1/2 py-4 px-8 text-[#4328eb] flex items-center justify-center  gap-x-2 lg:w-fit'>
                 View Pricing <span>
                 <Image src={BlurArrow} alt='arrow'/>                    
                 </span>
